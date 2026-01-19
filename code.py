@@ -1,13 +1,3 @@
-"""
-Analyse et Prédiction de la Survie du Titanic
-==============================================
-Devoir de Data Science - Licence 3 SI
-Dataset : Titanic - Machine Learning from Disaster
-
-Auteur : [Votre Nom]
-Date : Janvier 2026
-"""
-
 # =============================================================================
 # IMPORTS
 # =============================================================================
@@ -246,15 +236,11 @@ print("""
 LIMITES DU MODÈLE :
 - Recall faible (63%) : manque 37% des survivants
 - Pas de capture des interactions entre variables
-- Hypothèse de linéarité restrictive
-- Déséquilibre des classes (62% décès vs 38% survie)
+
 
 AMÉLIORATIONS POSSIBLES :
 - Créer des variables d'interaction (Sex × Pclass)
-- Ingénierie de features (taille famille, infos Cabin)
 - Tester Random Forest ou arbres de décision
-- Équilibrer les classes (SMOTE)
-- Validation croisée pour plus de robustesse
 """)
 
 print("\n" + "="*70)
