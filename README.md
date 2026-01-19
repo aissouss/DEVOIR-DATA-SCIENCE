@@ -46,20 +46,20 @@ Ce projet analyse les facteurs qui ont influencé la survie des passagers du Tit
 ## 🚀 Installation et exécution
 ```bash
 # Cloner le repository
-git clone https://github.com/[votre-username]/titanic-analysis.git
+git clone https://github.com/aissouss/DEVOI-DATA-SCIENCE.git
 
 # Installer les dépendances
 pip install pandas numpy matplotlib seaborn scikit-learn
 
 # Exécuter le notebook
-jupyter notebook titanic_analysis.ipynb
+jupyter notebook code.ipynb
 ```
 
 ## 📝 Structure du projet
 ```
-titanic-analysis/
+devoir data science/
 │
-├── titanic_analysis.py      # Script principal
+├── code.py      # Script principal
 ├── train.csv                 # Dataset
 ├── README.md                 # Documentation
 └── requirements.txt          # Dépendances
@@ -67,19 +67,9 @@ titanic-analysis/
 
 ## 👤 Auteur
 
-[Votre Nom] - Licence 3 SI - [Date]
+AISSYA BOUKRAA - Licence 3 SI - 
 
 ## 📄 Licence
 
 Ce projet est réalisé dans un cadre académique.
 ```
-
----
-
-## **requirements.txt**
-```
-pandas>=1.3.0
-numpy>=1.21.0
-matplotlib>=3.4.0
-seaborn>=0.11.0
-scikit-learn>=0.24.0
