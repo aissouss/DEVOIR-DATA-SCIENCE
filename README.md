@@ -46,30 +46,32 @@ Ce projet analyse les facteurs qui ont influencé la survie des passagers du Tit
 ## 🚀 Installation et exécution
 ```bash
 # Cloner le repository
-git clone https://github.com/aissouss/DEVOI-DATA-SCIENCE.git
+git clone https://github.com/aissouss/DEVOIR-DATA-SCIENCE.git
+
+# Accéder au dossier
+cd DEVOIR-DATA-SCIENCE
 
 # Installer les dépendances
-pip install pandas numpy matplotlib seaborn scikit-learn
+pip install -r requirements.txt
 
-# Exécuter le notebook
-jupyter notebook code.ipynb
+# Exécuter le script
+python code.py
 ```
 
 ## 📝 Structure du projet
 ```
-devoir data science/
+DEVOIR-DATA-SCIENCE/
 │
-├── code.py      # Script principal
-├── train.csv                 # Dataset
-├── README.md                 # Documentation
-└── requirements.txt          # Dépendances
+├── code.py                   # Script principal d'analyse
+├── train.csv                 # Dataset Titanic
+├── README.md                 # Documentation du projet
+└── requirements.txt          # Dépendances Python
 ```
 
 ## 👤 Auteur
 
-AISSYA BOUKRAA - Licence 3 SI - 
+**AISSYA BOUKRAA** - Licence 3 SI - Janvier 2026
 
 ## 📄 Licence
 
 Ce projet est réalisé dans un cadre académique.
-
