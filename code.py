@@ -22,7 +22,8 @@ print("PARTIE 1 : CHARGEMENT DES DONNÉES")
 print("="*70)
 
 # Charger le dataset
-df = pd.read_csv("C:\\Users\\saiss\\Downloads\\titanic\\train.csv")
+# Mettre le chemin du fichier train.csv
+df = pd.read_csv("votre chemin dacces\\titanic\\train.csv")
 
 # Afficher les premières lignes
 print("\nAperçu des données :")
